@@ -1,0 +1,91 @@
+{
+	"info": {
+		"_postman_id": "2e59a37f-d045-49e5-a945-7f8780965eeb",
+		"name": "TaskManager",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21266424"
+	},
+	"item": [
+		{
+			"name": "https://localhost:7256/api/task-management/UpdateTask",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Id\": 107,\r\n    \"Name\": \"Clean house mate 2\",\r\n    \"Description\": \"We should take the car to carwash\",\r\n    \"DueDate\": \"2022-08-20T00:00:00\",\r\n    \"StartDate\": \"2022-08-18T00:00:00\",\r\n    \"EndDate\": \"2022-08-19T00:00:00\",\r\n    \"Priority\": 1,\r\n    \"Status\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7256/api/task-management/UpdateTask",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7256",
+					"path": [
+						"api",
+						"task-management",
+						"UpdateTask"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:7256/api/task-management/AddTask",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Id\": 0,\r\n    \"Name\": \"Clean house last\",\r\n    \"Description\": \"We should take the car to carwash\",\r\n    \"DueDate\": \"2022-08-15\",\r\n    \"StartDate\": \"2022-08-18T00:00:00\",\r\n    \"EndDate\": \"2022-08-19T00:00:00\",\r\n    \"Priority\": 1,\r\n    \"Status\": 0\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7256/api/task-management/AddTask",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7256",
+					"path": [
+						"api",
+						"task-management",
+						"AddTask"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:7256/api/task-management/GetAllTasks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7256/api/task-management/GetAllTasks",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7256",
+					"path": [
+						"api",
+						"task-management",
+						"GetAllTasks"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
