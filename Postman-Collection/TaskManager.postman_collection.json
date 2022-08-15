@@ -86,6 +86,90 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "https://tasksmanager20220815134021.azurewebsites.net/api/task-management/GetAllTasks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://tasksmanager20220815134021.azurewebsites.net/api/task-management/GetAllTasks",
+					"protocol": "https",
+					"host": [
+						"tasksmanager20220815134021",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"task-management",
+						"GetAllTasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://tasksmanager20220815134021.azurewebsites.net/api/task-management/AddTask",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Id\": 0,\r\n    \"Name\": \"Clean house last\",\r\n    \"Description\": \"We should take the car to carwash\",\r\n    \"DueDate\": \"2022-08-16\",\r\n    \"StartDate\": \"2022-08-18T00:00:00\",\r\n    \"EndDate\": \"2022-08-19T00:00:00\",\r\n    \"Priority\": 1,\r\n    \"Status\": 0\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://tasksmanager20220815134021.azurewebsites.net/api/task-management/AddTask",
+					"protocol": "https",
+					"host": [
+						"tasksmanager20220815134021",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"task-management",
+						"AddTask"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://tasksmanager20220815134021.azurewebsites.net/api/task-management/UpdateTask",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Id\": 1,\r\n    \"Name\": \"Clean house last\",\r\n    \"Description\": \"We should take the car to carwash\",\r\n    \"DueDate\": \"2022-08-17\",\r\n    \"StartDate\": \"2022-08-18T00:00:00\",\r\n    \"EndDate\": \"2022-08-19T00:00:00\",\r\n    \"Priority\": 1,\r\n    \"Status\": 0\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://tasksmanager20220815134021.azurewebsites.net/api/task-management/UpdateTask",
+					"protocol": "https",
+					"host": [
+						"tasksmanager20220815134021",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"task-management",
+						"UpdateTask"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
