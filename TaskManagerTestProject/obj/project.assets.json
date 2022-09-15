@@ -6678,11 +6678,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dev\\Geico\\TaskManagerTestProject\\TaskManagerTestProject.csproj",
+      "projectUniqueName": "C:\\Dev\\TaskMansger\\TaskManager\\TaskManagerTestProject\\TaskManagerTestProject.csproj",
       "projectName": "TaskManagerTestProject",
-      "projectPath": "C:\\Dev\\Geico\\TaskManagerTestProject\\TaskManagerTestProject.csproj",
+      "projectPath": "C:\\Dev\\TaskMansger\\TaskManager\\TaskManagerTestProject\\TaskManagerTestProject.csproj",
       "packagesPath": "C:\\Users\\Amin.Akhtar\\.nuget\\packages\\",
-      "outputPath": "C:\\Dev\\Geico\\TaskManagerTestProject\\obj\\",
+      "outputPath": "C:\\Dev\\TaskMansger\\TaskManager\\TaskManagerTestProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Amin.Akhtar\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6693,15 +6693,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
         "https://truliooaws.jfrog.io/artifactory/api/nuget/nuget-gg-tech-release-virtual": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Dev\\Geico\\TasksManager\\TasksManager.csproj": {
-              "projectPath": "C:\\Dev\\Geico\\TasksManager\\TasksManager.csproj"
+            "C:\\Dev\\TaskMansger\\TaskManager\\TasksManager\\TasksManager.csproj": {
+              "projectPath": "C:\\Dev\\TaskMansger\\TaskManager\\TasksManager\\TasksManager.csproj"
             }
           }
         }
@@ -6752,7 +6751,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }
