@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tReMnP0K2Z9/1Va/RwX7MjdfN6MKau+gxYa2HJJz9q2O7VTINj5r+mxRAVBPuYs273YbB2yaXroaKyqxgLFWnA==",
+  "dgSpecHash": "7G6XBMypWU1+Bl6/RrHR+UdIhRKb4/rm5MX/v28vpLXa/r0QwE1S94siiHxHbfZEpqiOqE+BCJx809gPKWxVkA==",
   "success": true,
-  "projectFilePath": "C:\\Dev\\Geico\\TasksManager\\TasksManager.csproj",
+  "projectFilePath": "C:\\Dev\\TaskMansger\\TaskManager\\TasksManager\\TasksManager.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Amin.Akhtar\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Amin.Akhtar\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
